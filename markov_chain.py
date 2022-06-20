@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def markov(n, N):
+def markov_chain(n, N):
     """A function that takes n and N as input computes the markov chain."""
     
     # Construct a random n-vector with non-negative entries and scale its entries so that the sum is 1. This computation gives us a probability distribution p
@@ -34,8 +34,8 @@ def markov(n, N):
     
     return p
 
-markov(5, 50)
-markov(10, 50)
-markov(20, 50)
-markov(50, 3)
+markov_chain(5, 50)
+markov_chain(10, 50)
+markov_chain(20, 50)
+markov_chain(50, 3)
 
