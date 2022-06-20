@@ -1,7 +1,7 @@
 # Homework 3
 
 ## Question 1
-To create the mandlebrot call the following function:
+To create the madelbrot call the following function:
 ```python
 madelbrot()
 ```
